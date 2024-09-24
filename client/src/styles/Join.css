@@ -1,0 +1,89 @@
+/* Join.css */
+
+.join-container {
+  max-width: 600px;  /* Maximum width of the form */
+  margin: 20px auto; /* Center the form */
+  padding: 20px;
+  border: 2px solid #28a745; /* Border color for the form */
+  border-radius: 8px;  /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  background-color: #ffffff; /* Background color */
+  font-family: 'Arial', sans-serif; /* Font style */
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.join-container:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  color: #28a745; /* Green color for the heading */
+  margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Spacing between form groups */
+  display: flex; /* Flexbox for alignment */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+label {
+  margin-bottom: 5px; /* Space below labels */
+  font-weight: bold; /* Bold text for labels */
+  color: #333; /* Dark color for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%; /* Full width for input fields */
+  padding: 12px; /* Padding inside input fields */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  transition: border-color 0.3s ease; /* Transition for border color */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border-color: #28a745; /* Change border color on focus */
+  outline: none; /* Remove outline */
+}
+
+textarea {
+  height: 150px; /* Set height for the message box */
+  resize: none; /* Disable resizing of the textarea */
+}
+
+button {
+  display: block; /* Block element for full width */
+  width: 100%; /* Full width for the button */
+  padding: 12px; /* Padding for the button */
+  background-color: #28a745; /* Green background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 18px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and label */
+}
+
+.form-group:last-of-type {
+  margin-top: 20px; /* Space above the CAPTCHA field */
+}
+
+.recaptcha {
+  margin: 20px 0; /* Margin around the CAPTCHA */
+}

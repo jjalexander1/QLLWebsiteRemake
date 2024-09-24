@@ -14,14 +14,14 @@ This project is an open-source remake of the Quiz League of London (QLL) website
 
 To get started with this project, follow these steps:
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/jjalexander1/QLLWebsiteRemake.git
 cd qll-website-remake
 ```
 
-Request permission from Jack (jjalexander1) to make contributions to the repository.
+Request permission from Jack (jjalexander1) through github if you want to make contributions to the repository.
 
 
 ## Tech Stack

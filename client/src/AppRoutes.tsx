@@ -6,6 +6,7 @@ import About from './pages/About';
 import Links from './pages/Links';
 import LeagueTables from './pages/LeagueTable';
 
+// Defines the router to allow navigation between pages
 const AppRoutes: React.FC = () => {
   return (
     <Routes>

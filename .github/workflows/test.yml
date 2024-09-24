@@ -3,7 +3,7 @@ name: Run Tests
 on:
   pull_request:
     branches:
-      - main  # Change this to your default branch if different
+      - main
 
 jobs:
   test:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20'  # Specify the Node.js version you're using
+          node-version: '20'
 
       - name: Install dependencies
         run: npm install

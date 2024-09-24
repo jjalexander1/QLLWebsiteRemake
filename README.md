@@ -28,5 +28,5 @@ To get started with this project, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/qll-website-remake.git
+git clone https://github.com/jjalexander1/QLLWebsiteRemake.git
 cd qll-website-remake
